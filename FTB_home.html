@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+	<head>
+	 <!--
+	 Project Work No.1
+	 Student Name: Vishalaxi Thathwam
+	 Student ID: 99983
+	 Course: ISEM-501 Spring 2016	 
+	 -->
+		<meta charset = "UTF-8"/> 
+		<link rel="stylesheet" type="text/css" href="FTB_css.css">
+		<script src="jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="FTB_Jscript.js" ></script>
+		
+	</head>
+	
+	<body onload="javascript:f_home()">
+		
+		
+		<header>
+			<div id="left_panel">
+				<div id="left_head"><a id="Find_Best">Find the Best in Ashburn</a></div><br><br>				
+			</div>	
+		    
+			<div id="left_panel">
+				<div id ="tabs_contents">
+				    <br>
+					<br>
+					<br>
+					<input type="button" id="home_button" value="Home" onclick="f_home()">
+									
+					<input type="button" id="bars_button" value="Bars" onclick="f_bars()">
+					
+					<input type="button" id="shopping_button" value="Shopping" onclick="f_shopping()">
+					
+					<input type="button" id="restaurants_button" value="Restaurants" onclick="f_restaurants()">
+					
+					<input type="button" id="contact_us_button" value="Contact Us" onclick="f_contact_us()">
+					<br>
+					<br>
+					<br>
+				</div>
+			</div>
+		</header>
+		
+		<!------------->
+		<table>
+		<tr>
+		<td width="60%">
+		<div id="home_ID"><img src="travel_home.jpg" id="travel_home_ID"/>
+			<p> Do not settle for less. Find the Best. </p>
+		</div>
+		</td>
+		<td width="40%">
+		<div id="eventsDiv">
+		<table bgcolor="#00FFFF" border="0" cellpadding="6" cellspacing="1" width="100%"> 
+<tbody><tr> 
+
+<td class="title2"><div align="center"> 
+<div>&nbsp;&nbsp;&nbsp;Local Community Events&nbsp;&nbsp;&nbsp;</div></td> 
+</tr> 
+<tr> 
+<td bgcolor="#EDF3EF"> 
+	<table class="center-table" width="100%">
+		<tbody><tr>
+		<td>
+<table class="center-table" width="100%">
+<tbody><tr class="boldtext"><td>Household Hazardous Waste Collection</td></tr>
+<tr><td>
+<span class="colortext"><em>Saturday, March 19th to Sunday, June 26th</em></span><br>
+</td></tr><tr><td>&nbsp;</td></tr>
+<tr class="boldtext"><td>Broad Run HS PTSO Maroon &amp; Gold Online and Live Auction!</td></tr>
+<tr><td>
+<span class="colortext"><em>Thursday, April 7th to Thursday, April 21st</em></span><br>
+</td></tr><tr><td>&nbsp;</td></tr>
+
+<tr class="boldtext"><td>Sell It, Shred it, Donate It!  Annual AVCA Yard Sale.</td></tr>
+<tr><td>
+<span class="colortext"><em>Saturday, April 16th to Sunday, April 17th</em></span><br>
+</td></tr><tr><td>&nbsp;</td></tr>
+</tbody></table><br>
+		</td>
+		</tr>
+		<tr>
+		<td class="ra"><a id="events" href="#" onclick="eventsClick();return false;">View All Events</a></td>
+		</tr>
+	</tbody></table>
+</td> 
+</tr> 
+</tbody></table>
+</div>
+		</td>
+		
+</tr>
+		</table>
+		
+		
+		<!------------->		
+				
+		<div id="bars_ID">
+			    <h2>Bars:</h2>
+				<h3>Ashburn Pub</h1>
+				<p>Known for it's cozy atmosphere and non- corporate agenda, The Pub is a place to have family dinner, 
+                           watch the ballgame, or come party with friends over cold beer and hot wings.</p>
+				<img src="bar_1.jpg" id="bar_1_ID"/>
+				<br>
+				<br>
+				<h3>Bar Louie</h3>
+				<p>It has Upbeat grill chain with American grub, martinis & microbrews, plus happy-hour deals.</p>
+				<img src="bar_2.jpg" id="bar_2_ID"/>			
+				<br>
+				<br>				
+				<h3>Irish Bar</h1>
+				<p>They are family owned and preoperated Irsih pub, focussing on traditional bub fare, music and hospitality.</p>
+				<img src="bar_3.jpg" id="bar_3_ID"/>
+				<br>
+		</div>
+		<!------------->
+		
+		<div id ="shopping_ID">
+		        <h2>Shopping:</h2>
+				<h3>Tysons Corner</h1>
+				
+				<img src="shopping_1.jpg"><br>
+				<p>Harristeeter, Lotte Plaza and Shoppers have the variety section of asian groceries, 
+                           that serve throughout Maryland and Virginia</p>	
+				<p id="shopping_2_ID">Harris teeter:</p>
+				<img src="shopping_2.jpg"><br>
+
+				<p id="shopping_3_ID">Lotte Plaza:</p>
+				<img src="shopping_3.jpg"><br>
+
+				<p id="shopping_4_ID">Kids Play:</p>
+				<img src="shopping_4.jpg"><br>
+		</div>
+		<!------------->
+		
+		</div>
+		<div id ="restaurants_ID">
+			<h2>Restaurants:</h2>
+			<p>To name few we have Pasara, Peiwei and Nandos, with Thai, Chineese and African cuisines that combine the boldest flavors 
+                           with fresh ingredients and each dish is handcrafted fresh and fast to fit into your busy life.</p>
+			<img src="restaurant_1.jpg"><br>
+      			
+
+			<p id="restaurant_2_ID">Pasara:</p>
+			<img src="restaurant_2.jpg"><br>
+
+			<p id="restaurant_3_ID">Peiwei:</p>
+			<img src="restaurant_3.jpg"><br>
+
+			<p id="restaurant_4_ID">Nandos:</p>
+			<img src="restaurant_4.jpg"><br>
+
+		</div>
+		<!------------->
+		
+		<div id ="events_ID">
+			<h2>Upcoming Events:</h2>
+			
+
+			<p id="event1">Household Hazardous Waste Collection:</p>
+			<img src="event1.jpg"><br>
+
+			<p id="event2">Broad Run HS PTSO Maroon & Gold Online and Live Auction!</p>
+			<img src="event2.jpg"><br>
+
+			<p id="event3">Annual AVCA Yard Sale</p>
+			<img src="event3.jpg"><br>
+			<p id="event4">Dominion Trail Elementary School 2nd Annual Golf Tournament </p>
+			<img src="event4.jpg"><br>
+			<p id="event5">Introduction to Medicare </p>
+			<img src="event5.jpg"><br>
+
+		</div>
+		<div id ="contact_us_ID">
+            <h2>Contact Us:</h2>		
+			<img src="contact_us.jpg">
+			<p id="location">Location:</p>
+     			<p>Find the best is located right near to the Capitol Building 5 blocks away</p>
+			<p id="address">Address:</p>
+			<p>Find the Best</p>
+			<p>111 2nd Street</p>
+			<p>Washington DC</p>
+			<p>zip 20001</p
+			<p>USA</p>
+			<p id="email">Email: customerservice@ftb.com </p>
+			<p> Phone: Phone: 1800-123-0000(U.S)</p>
+			Comments:<textarea rows ="2" columuns="30" style="width:25%"></textarea>
+			<input type="submit" value="submit"/>			
+		</div>
+		<!------------->
+		
+		
+		<footer id ="pagefooter">
+			
+		</footer>
+	</body>
